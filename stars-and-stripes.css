@@ -1,4 +1,3 @@
-
 /* 4th of July Color Palette & Variables */
 :root {
   --patriot-blue: #002868;
@@ -41,4 +40,11 @@
 
 .star {
   animation: sparkle 1.5s ease-in-out infinite;
+}
+
+body {
+  background-image: url("images/backyard.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
