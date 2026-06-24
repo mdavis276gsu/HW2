@@ -65,3 +65,33 @@ h1 {
   margin: 50px auto; 
   border-radius: 15px;
 }
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  max-width: 1100px;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-image:hover,
+.gallery-image:focus-visible {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+}
+
+audio {
+  display: block;
+  margin: 0 auto 3rem;
+  max-width: 500px;
+  width: 100%;
+}
