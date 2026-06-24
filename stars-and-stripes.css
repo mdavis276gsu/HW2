@@ -42,9 +42,26 @@
   animation: sparkle 1.5s ease-in-out infinite;
 }
 
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
 body {
+  min-height: 100vh;
   background-image: url("images/backyard.png");
-  background-size: cover;
-  background-position: center;
+  background-size: cover;      
+  background-position: center; 
   background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  border: 4px solid #FFD700; /* gold border */
+  background-color: rgba(0, 40, 104, 0.8); /* patriotic blue */
+  color: white;
+  padding: 20px;
+  width: fit-content;
+  margin: 50px auto; 
+  border-radius: 15px;
 }
