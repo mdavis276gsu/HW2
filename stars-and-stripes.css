@@ -66,3 +66,8 @@ h1 {
   border-radius: 15px;
 }
 
+nav a {
+  background-color: #BF0A30;
+  color: white;
+  padding:10px;
+}
