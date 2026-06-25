@@ -101,9 +101,10 @@ nav a {
 }
 
 .charleston {
-  position: fixed;
-  left: 50px;
-  bottom: 50px;
+  position: absolute;
+  left: 35%;
+  bottom: 0;
+  transform: translateX(-50%);
 }
 
 .couple {
@@ -166,19 +167,10 @@ audio {
   z-index: 10;
 }
 
-.fireworks-top {
-  width: 50%;
-  max-width: 180px;
-  height: auto;
-}
-
-body {
-  min-height: 100vh;
-  background-image: url("images/backyard.png");
-  background-size: cover;      
-  background-position: center; 
-  background-repeat: no-repeat;
-  position: relative;
+.unc{
+  position: fixed;
+  right: 400px;
+  bottom: 50px;
 }
 
 .pool {
