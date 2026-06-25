@@ -112,9 +112,9 @@ audio{
 }
 
 .unc{
-  position: fixed;
-  right: 400px;
-  bottom: 50px;
+  position: absolute;
+  left: 20%;
+  bottom: 0%;
 }
 
 .slide{
