@@ -85,10 +85,10 @@ nav a {
   bottom: 250px;
 }
 
-.girl{
-  position: absolute;
-  right: 50px;
-  bottom: 0px;
+.unc {
+  position: fixed;
+  left: 340px; 
+  bottom: 0;
 }
 
 audio{
@@ -111,12 +111,11 @@ audio{
   bottom: 0px;
 }
 
-.unc{
+.girl{
   position: absolute;
-  left: 20%;
-  bottom: 0%;
+  right: 0px;
+  bottom: 0px;
 }
-
 .slide{
   position: fixed;
   right: 0px;
