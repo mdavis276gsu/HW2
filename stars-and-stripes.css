@@ -75,9 +75,8 @@ nav a {
 
 .charleston {
   position: absolute;
-  left: 50%;
+  left: 20%;
   bottom: 0;
-  transform: translateX(-50%);
 }
 
 .couple{
