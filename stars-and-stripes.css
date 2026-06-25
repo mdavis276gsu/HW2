@@ -56,6 +56,7 @@ body {
 }
 
 h1 {
+  z-index: 2;
   text-align: center;
   border: 4px solid #FFD700; /* gold border */
   background-color: rgba(0, 40, 104, 0.8); /* patriotic blue */
@@ -72,10 +73,11 @@ nav a {
   padding:10px;
 }
 
-.charleston{
-  position: fixed;
-  left: 50px;
-  bottom: 50px;
+.charleston {
+  position: absolute;
+  left: 35%;
+  bottom: 0;
+  transform: translateX(-50%);
 }
 
 .couple{
@@ -86,8 +88,8 @@ nav a {
 
 .girl{
   position: absolute;
-  right: 100px;
-  bottom: 180px;
+  right: 50px;
+  bottom: 0px;
 }
 
 audio{
@@ -112,12 +114,34 @@ audio{
 
 .unc{
   position: fixed;
-  right: 200px;
+  right: 400px;
   bottom: 50px;
 }
 
 .slide{
-  position: absolute;
-  right: 200px;
+  position: fixed;
+  right: 0px;
   top: 50px;
+  transform: perspective(800px) rotateX(50deg) scaleX(-1);
+}
+
+.dance{
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translateX(-50%);
+}
+
+.speaker{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+}
+
+.speaker2{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
 }
